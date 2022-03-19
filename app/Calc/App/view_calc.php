@@ -50,7 +50,7 @@ if (isset($messages)) {
 <?php } ?>
 	
 
-<button><a href="/app/Widok.php">Powrót</a></button>
+<button><a href="<?php print(_APP_URL);?>">Powrót</a></button>
 
 
 
