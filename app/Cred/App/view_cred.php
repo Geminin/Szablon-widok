@@ -6,7 +6,7 @@
 <title>Kalkulator_rozszerzony</title>
 </head>
 <body>
-<form action="<?php print(_APP_URL);?>/app/CredApp/cred.php" method="post">
+<form action="<?php print(_APP_URL);?>/app/Cred/App/cred.php" method="post">
 
 	Kwota:    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
 	Ilość Lat:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
@@ -44,7 +44,7 @@ if (isset($messages)) {
 <?php } ?>
 <br>
 
-<button><a href="<?php print(_APP_URL);?>">Powrót</a></button>
+<button><a href="<?php print(_APP_URL);?>/Choose/view.php">Powrót</a></button>
 
 </body>
 </html>

@@ -103,7 +103,7 @@
 	</div>
 	<!-- /Highlights -->
 
-	<!-- container -->
+
 	
 	
 	<!-- Social links. @TODO: replace by link/instructions in template -->
