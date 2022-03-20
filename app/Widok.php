@@ -86,16 +86,20 @@
 			
 			<div class="row">
 				<div class="col-md-3 col-sm-6 highlight">
-					xd
+					<a href="app/Calc/Index_calc.php"><h3>Kalkulator</h3></a>
+					<img src="assets/images/Calc.jpg" alt="Kalkulator">
+
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
-					xd
+				<a href="app/Cred/Index_cred.php"><h3>Kalkulator kredytowy</h3></a>
+					<img src="assets/images/Cred.png" alt="Kalkulator Kredytowy">
+
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
-					xd
+					<h3>Coming Soon</h3>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight">
-					xd
+					<h3>Coming Soon</h3>
 				</div>
 			</div> <!-- /row  -->
 		

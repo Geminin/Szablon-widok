@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>Progressus - Free business bootstrap template by GetTemplate</title>
+	<title>{$page_title|default:"Tytuł domyślny"}<</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
@@ -89,16 +89,32 @@
 			
 			    <div class="row">
 				    <div class="col-md-3 col-sm-6 highlight">
-					    
+					-----------------------------
+					{block name=k1} 
+
+					{/block}
+					-----------------------------
 				    </div>
 				    <div class="col-md-3 col-sm-6 highlight">
-					    
+					-----------------------------
+					{block name=k2} 
+
+					{/block}
+					-----------------------------   
 				    </div>
 				    <div class="col-md-3 col-sm-6 highlight">
-					    
+					-----------------------------
+					{block name=k3} 
+
+					{/block}
+					-----------------------------    
 				    </div>
 				    <div class="col-md-3 col-sm-6 highlight">
-					    
+					-----------------------------
+					{block name=k4} 
+
+					{/block}
+					-----------------------------   
 				    </div>
 			    </div> <!-- /row  -->
 		
