@@ -1,14 +1,8 @@
 <?php
 require_once dirname(__FILE__).'/../config.php';
 
-// KONTROLER strony kalkulatora
+include $conf->root_path.'/app/Security/check.php';
 
-// W kontrolerze niczego nie wysyła się do klienta.
-// Wysłaniem odpowiedzi zajmie się odpowiedni widok.
-// Parametry do widoku przekazujemy przez zmienne.
+require_once $conf->root_path.'/libs/Smarty.class.php';
 
-//ochrona kontrolera - poniższy skrypt przerwie przetwarzanie w tym punkcie gdy użytkownik jest niezalogowany
-include _ROOT_PATH.'/app/Security/check.php';
-
-
-include 'Widok.php';
+include 'Widok.html';

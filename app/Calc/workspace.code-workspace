@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "kalkulator",
+			"path": "..\\..\\..\\kalkulator"
+		},
+		{
+			"name": "Calc_ext",
+			"path": "..\\..\\..\\Calc_ext"
+		},
+		{
+			"name": "Szablon-widok",
+			"path": "..\\.."
+		},
+		{
+			"name": "Ochrona_Dostepu",
+			"path": "..\\..\\..\\Ochrona_Dostepu"
+		},
+		{
+			"name": "php_05_obiektowosc",
+			"path": "..\\..\\..\\php_05_obiektowosc"
+		}
+	],
+	"settings": {}
+}

@@ -3,13 +3,14 @@ require_once dirname(__FILE__).'/../../config.php';
 //inicjacja mechanizmu sesji
 session_start();
 
-//pobranie roli
+
 $role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
 
-//jeśli brak parametru (niezalogowanie) to idź na stronę logowania
+
 if ( empty($role) ){
-	include _ROOT_PATH.'/app/Security/login.php';
+	include $conf->app_root.'/app/Security/login.php';
 	//zatrzymaj dalsze przetwarzanie skryptów
 	exit();
 }
-//jeśli ok to idź dalej
+
+require_once $conf->root_path.'/libs/Smarty.class.php';
