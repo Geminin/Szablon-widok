@@ -1,10 +1,10 @@
 <?php
 
 
-require_once $conf->root_path.'/lib/Calc/smarty/Smarty.class.php';
-require_once $conf->root_path.'/lib/Calc/Messages.class.php';
+require_once $conf->root_path.'/libs/Smarty.class.php';
+require_once $conf->root_path.'/libs/Messages.class.php';
 require_once $conf->root_path.'/app/Calc/CalcForm.class.php';
-require_once $conf->root_path.'/app/Calc/CalcResult.class.php';
+require_once $conf->root_path.'/app/Calc/CalcRes.class.php';
 
 
 class CalcCtrl {

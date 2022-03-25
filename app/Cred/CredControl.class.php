@@ -1,19 +1,18 @@
 <?php
-// W skrypcie definicji kontrolera nie trzeba dołączać problematycznego skryptu config.php,
-// ponieważ będzie on użyty w miejscach, gdzie config.php zostanie już wywołany.
 
-require_once $conf->root_path.'/lib/smarty/Smarty.class.php';
-require_once $conf->root_path.'/lib/Messages.class.php';
-require_once $conf->root_path.'/app/CalcForm.class.php';
-require_once $conf->root_path.'/app/CalcResult.class.php';
+
+require_once $conf->root_path.'/libs/Smarty.class.php';
+require_once $conf->root_path.'/libs/Messages.class.php';
+require_once $conf->root_path.'/app/Cred/CredForm.class.php';
+require_once $conf->root_path.'/app/Cred/CredRes.class.php';
 
 
 class CredCtrl {
 
-	private $msgs;   		//wiadomości dla widoku
-	private $form;   		//dane formularza (do obliczeń i dla widoku)
-	private $result; 		//inne dane dla widoku
-	private $hide_intro; 	//zmienna informująca o tym czy schować intro
+	private $msgs;   		
+	private $form;   		
+	private $result; 		
+	private $hide_intro; 	
 
 	
 	public function __construct(){
