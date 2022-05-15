@@ -8,9 +8,9 @@ $role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
 
 
 if ( empty($role) ){
-	include $conf->app_root.'/app/Security/login.php';
+	//include $conf->app_root.'/app/Security/login.php';
+	include $conf->app_root."/app/Security/login.php";
 	//zatrzymaj dalsze przetwarzanie skryptów
 	exit();
 }
 
-require_once $conf->root_path.'/libs/Smarty.class.php';

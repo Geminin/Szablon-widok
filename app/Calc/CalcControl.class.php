@@ -123,6 +123,6 @@ class CalcCtrl {
 		$smarty->assign('form',$this->form);
 		$smarty->assign('res',$this->result);
 		
-		$smarty->display($conf->root_path.'/app/view_calc.html');
+		$smarty->display($conf->root_path.'/app/Calc/view_calc.html');
 	}
 }
